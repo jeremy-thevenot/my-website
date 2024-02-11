@@ -1,0 +1,19 @@
+.avatar {
+    position: absolute; /* Position the avatar on top of the banner */
+    top: 20px; /* Adjust as needed */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    z-index: 1; /* Ensure the avatar is on top of other elements */
+    text-align: center;
+}
+
+.avatar img {
+    width: 330px; /* Adjust the size of the avatar */
+    height: 330px; /* Adjust the size of the avatar */
+    border-radius: 50%; /* Circle avatar */
+    transition: transform 0.3s; /* Hover animation */
+}
+
+.avatar img:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}

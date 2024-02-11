@@ -1,0 +1,28 @@
+.contact,
+.description,
+.typeform {
+    padding: 20px;
+    text-align: center;
+}
+
+.btn-contact {
+    background-color: #e60000; /* Red button */
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Add transition */
+}
+
+.btn-contact a {
+    color: inherit; /* Use the default text color */
+    text-decoration: none; /* Remove underline */
+}
+
+
+.btn-contact:hover {
+    background-color: #ff4d4d; /* Darker red on hover */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Add glow effect on hover */
+}

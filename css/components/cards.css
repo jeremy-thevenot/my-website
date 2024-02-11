@@ -1,0 +1,28 @@
+.cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px; /* Improved spacing between cards */
+}
+
+.card {
+    flex: 1; /* Cards fill available space */
+    background-color: transparent; /* No background for cards */
+    padding: 10px; /* Reduced padding */
+    text-align: center;
+    position: relative; /* Ensure proper positioning of the glow effect */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card h2 {
+    margin-top: 10px;
+    color: #e60000; /* Red heading */
+}
+
+.card p {
+    margin-top: 10px; /* Increased space between price and audio */
+}
